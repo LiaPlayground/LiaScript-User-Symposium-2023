@@ -19,7 +19,15 @@ import: https://github.com/liascript/CodeRunner
 
 # 5 years of LiaScript - Lessons learned 
 
+My first LiaScript course started in autumn 2018. Until now we revised this specific course multiple times (++361,654 --203,972 lines) and provide its 6th version.
+
+> __TODO: Video zeitliche Entwicklung einbauen__
+
+> __I am going to summarize my experiences and usage patterns in this talk.__
+
 ## A brief look back 
+
+!?[Umsetzung und Herausforderungen von Remote-Laboren](https://www.youtube.com/watch?v=HvmyD9Ni36U&t=1037s)
 
 Starting point Industrial elab
 
@@ -62,16 +70,27 @@ motivating errors
 + Are their new template implementations probably interesting for my work?
 + ...
 
-Let's focus on public Github Repositories for 
+Let's focus on public Github Repositories ...
 
-### Method 
+### Aggregation method 
+
 ```
-Select 
-  + all github repositories
-  + all github files 
-                    
-    ...  menitioning LiaScript or corresponding URLs 
+  Select 
+    + all github repositories
+    + all github files                   
+  ...  menitioning LiaScript or corresponding URLs 
 ```
+
+I used the [pygithub](https://github.com/PyGithub/PyGithub) library to access the Github API.
+
+### Data set 
+
+
+
+### Data analysis
+
+
+
 
 
 
