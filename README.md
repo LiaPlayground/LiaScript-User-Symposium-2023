@@ -11,43 +11,45 @@ Welcome!
 > __Let's foster the LiaScript community building and discuss the next steps of the project.__
 
 <!-- data-type="none" -->
-| Duration   | Content                                | Speaker        |
-| ---------: | :------------------------------------- | :------------- |
-|  5min      | Warm up                                |                |
-| 15min      | 5 years of LiaScript - Lessons learned | Sebastian Zug  |
-| 15min      | LiaScript - State of the Art           | André Dietrich |
-| 30min      | User stories                           |                |
-|            |  1.                                    |                |
-|            |  2.                                    |                |
-|            |  3.                                    |                |
-|            |  4.                                    |                |
-| 15min      | Next steps for LiaScript               | André Dietrich |
-| 10min      | Discussions, Feedbacks                 |                |
+| Duration | Content                                    | Speaker        |
+| -------: | :----------------------------------------- | :------------- |
+|    5 min | __Warm up__                                |                |
+|   15 min | __5 years of LiaScript - Lessons learned__ | Sebastian Zug  |
+|   40 min | __4 User stories__                         |                |
+|   40 min | __State of LiaScript__                     | André Dietrich |
+|          | 1. Improving the Editor                    |                |
+|          | 1. Sharing courses (the new way)           |                |
+|          | 2. Scripts hidden (interactive) Gems       |                |
+|          | 3. Classrooms extensions (Lab-Sharing)     |                |
+|    5 min | __Future Work__                            |                |
+|   .. min | __Open Discussion, Feedback, ...__         | All            |
 
 ## Warm up
 
-> Please switch to the LiaScript Classroom of the symposium! By using the following link [LiaClassroom]{}
+<div style="width:100%;height:0;padding-bottom:76%;position:relative;"><iframe src="https://giphy.com/embed/xT5LMD9Hs9ZpEfzAZi" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/season-3-the-simpsons-3x21-xT5LMD9Hs9ZpEfzAZi">via GIPHY</a></p>
+
+> Please switch to the LiaScript Classroom of the symposium! By using the following link [LiaClassroom]()
 
                                {{1-2}}
 ************************************************************************
 
-Where are you from?
+__Where are you from?__
 
-[ ] Asia 
-[ ] Australia 
-[ ] Europe
-[ ] North America 
-[ ] South America
+- [(asia)]          Asia 
+- [(australia)]     Australia 
+- [(europe)]        Europe
+- [(north america)] North America 
+- [(south america)] South America
 
 ************************************************************************
 
                                {{2-3}}
 ************************************************************************
 
-What's your affilation? You are from 
+What's your affiliation?
 
-[ ] Academia
-[ ] Industry 
+- [[academia]] Academia
+- [[industry]] Industry 
 
 ************************************************************************
 
@@ -56,7 +58,7 @@ What's your affilation? You are from
 
 What is your domain?
 
-[ ]
+[[___]]
 
 
 ************************************************************************

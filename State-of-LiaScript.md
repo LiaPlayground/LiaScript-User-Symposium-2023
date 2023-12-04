@@ -93,9 +93,9 @@
 
 6. Sharing Learning-Chunks via Data-URIs / QR-codes
 
-### Collaborative Editing
+## Editing (Collaboration & Improvements)
 
-
+!?[LiveEditor](./vid/LiveEditor.mp4)
 
 ## Sharing Courses via ...
 
@@ -278,7 +278,7 @@ const subID = LIA.classroom.subscribe("topic", (message) => {
 LIA.classroom.unsubscribe(subID)
 ```
 
-#### Classroom Voting
+#### Simple Voting
 
 <script>
 LIA.classroom.on("connected", () => {
