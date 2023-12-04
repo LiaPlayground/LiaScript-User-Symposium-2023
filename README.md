@@ -60,17 +60,14 @@ What is your domain?
 
 [[___]]
 
-
 ************************************************************************
 
 ## Stay connected
 
-+ Gitter Channel 
-+ Youtube  ....
-
+https://github.com/orgs/LiaScript/discussions
 
 # Was hast Du hiermit vor?
 
-!?[Industrial eLab](https://www.youtube.com/watch?v=bICfKRyKTwE)
+
 
 !?[Umsetzung und Herausforderungen von Remote-Laboren](https://www.youtube.com/watch?v=HvmyD9Ni36U&t=1037s)

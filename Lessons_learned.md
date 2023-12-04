@@ -23,6 +23,8 @@ import: https://github.com/liascript/CodeRunner
 
 Starting point Industrial elab
 
+!?[Industrial eLab](https://www.youtube.com/watch?v=bICfKRyKTwE)
+
 https://www.zq.uni-mainz.de/files/2018/05/Industrial-eLab.pdf
 
 > Decouple content and environement
