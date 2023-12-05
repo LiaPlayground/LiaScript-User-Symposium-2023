@@ -12,56 +12,15 @@
   100% { opacity: 1; }
 }
 
-.lia-slide__container {
-    background-image: url("http://localhost:8000/pic/background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-@keyframes wave {
- 0% {
-   transform: rotate(0deg);
- }
- 10% {
-   transform: rotate(16deg);
- }
- 20% {
-   transform: rotate(-6deg);
- }
- 30% {
-   transform: rotate(16deg);
- }
- 40% {
-   transform: rotate(-4deg);
- }
- 50% {
-   transform: rotate(16deg);
- }
- 60% {
-   transform: rotate(0deg);
- }
- 100% {
-   transform: rotate(0deg);
- }
-}
-
-.waving-hand {
- animation: wave 2.1s 0.6s infinite;
- transform-origin: 75% 75%;
- display: inline-block;
-}
-
 .fall {
- position: absolute;
- top: 0;
- animation: fall 2s linear infinite;
+  position: absolute;
+  top: 0;
+  animation: fall 4s linear;
 }
 
 @keyframes fall {
- 0% { top: 0; }
- 100% { top: 100%; }
+  0% { top: 0; }
+  100% { top: 100%; }
 }
 
 @end
@@ -143,23 +102,30 @@ https://liascript.github.io/course/?data:text/plain;base64,IyBTdGF0ZSBvZiBMaWFTY
 
 ### Tor-Network
 
+![OnionShare](pic/onionshare.png "Download: https://onionshare.org")<!-- class="image" -->
+
+{{4}}
+!?[OnionShare german](https://www.youtube.com/watch?v=y6tBVNe6mWw&t=1269s)
+!?[OnionShare english](https://www.youtube.com/watch?v=-y7I3bIeB_I&t=620)
 
 </section>
 
 
-    {{4}}
+    {{5}}
 <section>
 
 ### IPFS
 
+![IPFS](pic/ipfs.png "Project: https://ipfs.tech")<!-- class="image" -->
 
 </section>
 
 
-    {{4}}
+    {{6}}
 <section>
 
 ### WebTorrent
+
 
 
 </section>
@@ -370,18 +336,27 @@ LIA.classroom.unsubscribe(subID)
 
 #### Simple Voting
 
-<script>
-LIA.classroom.on("connected", () => {
-    console.log("connected")
+<script run-once="true">
+LIA.classroom.subscribe("wave", (msg) => {
+    const icon = document.createElement("span")
+    icon.innerHTML = msg
+    icon.classList.add("fall")
+    icon.style.left=(Math.random() * 99) + "%"
+    icon.style.zIndex = 10000
+    document.body.appendChild(icon)
+    icon.addEventListener('animationend', function() {
+        icon.remove();
+    });
 })
+console.log("subscription")
+</script>
 
-const hand = document.createElement("span")
-hand.innerHTML = "👋"
-hand.classList.add("waving-hand")
-hand.classList.add("fall")
+<script input="button" run-once="true" modify="false">
+if (LIA.classroom.connected){
+    LIA.classroom.publish("wave", "👋")
+}
 
-document.body.appendChild(hand)
-
+"👋"
 </script>
 
 
@@ -393,4 +368,3 @@ https://github.com/Cross-Lab-Project/edrys-Lite/
 
 https://cross-lab-project.github.io/edrys-Lite/
 
-### Customization
