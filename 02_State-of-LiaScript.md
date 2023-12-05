@@ -118,6 +118,9 @@ https://liascript.github.io/course/?data:text/plain;base64,IyBTdGF0ZSBvZiBMaWFTY
 
 ![IPFS](pic/ipfs.png "Project: https://ipfs.tech")<!-- class="image" -->
 
+
+IPNS-URL: `ipns://k51qzi5uqu5dhc909pz7v2ef55hmogusfkxpezir7uhlbmon2viu52kwqn6r8g/02_State-of-LiaScript.md`
+
 </section>
 
 
@@ -126,7 +129,14 @@ https://liascript.github.io/course/?data:text/plain;base64,IyBTdGF0ZSBvZiBMaWFTY
 
 ### WebTorrent
 
+![WebTorrent](pic/webtorrent.png "Project: https://webtorrent.io")<!-- class="image" -->
 
+    {{7}}
+> For fast browser-based data sharing try out
+> 
+> https://instant.io
+>
+> Example of Torrent-URL: `magnet:?xt=urn:btih:42d530cd45f63884895d72f90811e7e1ff928dc4&dn=6.mp4&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.empire-js.us%3A1337`
 
 </section>
 
@@ -364,7 +374,7 @@ if (LIA.classroom.connected){
 
 ![Edrys-Lite](pic/edrys-lite.png)<!-- class="image" -->
 
-https://github.com/Cross-Lab-Project/edrys-Lite/
+GitHub: https://github.com/Cross-Lab-Project/edrys-Lite/
 
-https://cross-lab-project.github.io/edrys-Lite/
+WebSite: https://cross-lab-project.github.io/edrys-Lite/
 
