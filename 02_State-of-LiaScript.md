@@ -70,10 +70,18 @@
 
 # State of LiaScript
 
+> Maybe we were wrong to see Open Educational Resources (OER) as a one-way road, where you only have to produce content that others consume.
 
+{{1}} Supporting Authors (-collaboration)
 
+{{2}} Sharing Courses (the new ways)
+
+{{3}} Scripts hidden (interactive) Gems
+
+{{4}} Classrooms extensions (Lab-Sharing)
 
 ## Improving the Editor
+
 
 1. Add buttons next to snippets
 2. Improved table-formatting
@@ -95,7 +103,7 @@
 
 ## Editing (Collaboration & Improvements)
 
-!?[LiveEditor](./vid/LiveEditor.mp4)
+
 
 ## Sharing Courses via ...
 
@@ -115,14 +123,26 @@
 
 ## Scripting
 
-``` ascii
+```` ascii
 
-+-------------------+    "{2}{`22*22`}"   +------------------+
-|  "{1}{(ports)}"   +-------------------->|   "JavaScript "  |
-|                   |                     |                  |
-| " LiaScript/Elm " |<--------------------+   "{3}{(eval)}"  |
-+-------------------+    "{4}{`484`}"     +------------------+
-```
+ +-------------------+    "{3}{`22*22`}"   +------------------+
+ |  "{2}{(ports)}"   +-------------------->|   "JavaScript "  |
+ |                   |                     |                  |
+ | " LiaScript/Elm " |<--------------------+   "{4}{(eval)}"  |
+ +-------------------+    "{5}{`484`}"     +------------------+
+          ^
+          |" {1}{(parse)} " 
+          |
+ +-------------------+
+ |     README.md     |
+ |                   |
+ | ...               |
+ |  <script>     +---+
+ |    22*22      |  /
+ |  </script>    | /
+ | ...           |/
+ +---------------+
+````
 
 ### Starting Simple
 
