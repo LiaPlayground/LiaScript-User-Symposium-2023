@@ -29,7 +29,7 @@
 
 # State of LiaScript
 
-> ## _Maybe we were wrong to see Open Educational Resources (OER) as a one-way road, where you only have to produce content that others consume._
+> ## _Perhaps we've been mistaken in viewing Open Educational Resources (OER) as a one-way street, where the only responsibility lies in producing content for others to consume ..._
 
 {{1}} Supporting Authors (-collaboration)
 
@@ -143,7 +143,7 @@ IPNS-URL: `ipns://k51qzi5uqu5dhc909pz7v2ef55hmogusfkxpezir7uhlbmon2viu52kwqn6r8g
 
 ## Scripting
 
-> ## _The problem of static content is, that shortly after the time of writing, it might already be outdated..._
+> ## _Static content poses a problem because it will likely become outdated shortly after it has been published ..._
 
     {{1}}
 <section style="display: flex">
@@ -316,7 +316,7 @@ fetch("https://api.open-meteo.com/v1/forecast?latitude=@input(`latitude_@0`)&lon
 
 ## Collaboration
 
-> ## _Peer to Peer could be a baked in concept for OER ... _
+> ## _Peer-to-Peer could be the killer feature for OER ... _
 
 ### Open a Classroom
 
