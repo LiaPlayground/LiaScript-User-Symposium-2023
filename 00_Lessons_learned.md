@@ -74,12 +74,42 @@ Let's focus on public Github Repositories ...
 
 ### Aggregation method 
 
-```
-  Select 
-    + all github repositories
-    + all github files                   
-  ...  menitioning LiaScript or corresponding URLs 
-```
+```ascii
+                     +----------------+  
+                     | Lia-Keywords   |\ 
+                     | URLs etc.      +-+
+                     |                  |
+                     +------------------+
+                              |
+             +----------------+----------------+
+             |                                 |
+             v                                 v
+   +--------------------+            +--------------------+
+   | Scanning for repos |            | Scanning for code  |
+   |                    |            | files              |
+   +--------------------+            +--------------------+
+              |                                |
+              |      Lists of repositories     |  
+              |      +------------------+      |
+              +----> | Merge & validate | <----+
+                     | repository lists |
+                     +------------------+
+           unique repositories | 
+                               |
+              +----------------+----------------+
+              |                                 |
+              v                                 v                       
+    +------------------+               +------------------+        +------------+  
+    | Aggregation of   |               | Scanning for     | <----- | Lia-File   |\  
+    | repo parameter   |               | LiaScript files  |        | search     +-+   
+    +------------------+               +------------------+        | patterns     |   
+                             unique Lia files   |                  +--------------+   
+     - initial commit                           v                        
+     - contributors                    +------------------+  - content 
+     - stars                           | Aggregation of   |  - language  
+     - forks                           | file parameter   |  - keywords       
+     - ...                             +------------------+               
+``` 
 
 I used the [pygithub](https://github.com/PyGithub/PyGithub) library to access the Github API.
 
