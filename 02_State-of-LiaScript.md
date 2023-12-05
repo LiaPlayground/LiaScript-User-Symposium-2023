@@ -70,7 +70,7 @@
 
 # State of LiaScript
 
-> Maybe we were wrong to see Open Educational Resources (OER) as a one-way road, where you only have to produce content that others consume.
+> ## _Maybe we were wrong to see Open Educational Resources (OER) as a one-way road, where you only have to produce content that others consume._
 
 {{1}} Supporting Authors (-collaboration)
 
@@ -80,8 +80,15 @@
 
 {{4}} Classrooms extensions (Lab-Sharing)
 
-## Improving the Editor
+## Supporting Authors
 
+
+![LiaScript-Editor](pic/LiaEdit.png)<!-- class="image" -->
+
+
+https://LiaScript.github.io/LiveEditor
+
+### Improvements to the Editor
 
 1. Add buttons next to snippets
 2. Improved table-formatting
@@ -101,27 +108,79 @@
 
 6. Sharing Learning-Chunks via Data-URIs / QR-codes
 
-## Editing (Collaboration & Improvements)
+### Improving Collaboration
 
+!?[LiaScript-Editor](https://www.youtube.com/watch?v=EZuxYsMBKO4)
 
+## Sharing Courses
 
-## Sharing Courses via ...
+> ## _GitHub can be challenging for non-technical users._
+> 
+> ## _So what other ways can be used to distribute content?_
 
+### via ...
 
+    {{1}}
+<section>
 
 ### data-URIs
 
+https://liascript.github.io/course/?data:text/plain;base64,IyBTdGF0ZSBvZiBMaWFTY3JpcHQKCj4gIyMjIF9NYXliZSB3ZSB3ZXJlIHdyb25nIHRvIHNlZSBPcGVuIEVkdWNhdGlvbmFsIFJlc291cmNlcyAoT0VSKSBhcyBhIG9uZS13YXkgcm9hZCwgd2hlcmUgeW91IG9ubHkgaGF2ZSB0byBwcm9kdWNlIGNvbnRlbnQgdGhhdCBvdGhlcnMgY29uc3VtZS5fCgp7ezF9fSBTdXBwb3J0aW5nIEF1dGhvcnMgKC1jb2xsYWJvcmF0aW9uKQoKe3syfX0gU2hhcmluZyBDb3Vyc2VzICh0aGUgbmV3IHdheXMpCgp7ezN9fSBTY3JpcHRzIGhpZGRlbiAoaW50ZXJhY3RpdmUpIEdlbXMKCnt7NH19IENsYXNzcm9vbXMgZXh0ZW5zaW9ucyAoTGFiLVNoYXJpbmcpCgo=
 
+</section>
+
+    {{2}}
+<section>
 
 ### QR-Codes
 
+[qr-code](https://liascript.github.io/course/?data:text/plain;base64,IyBTdGF0ZSBvZiBMaWFTY3JpcHQKCj4gIyMjIF9NYXliZSB3ZSB3ZXJlIHdyb25nIHRvIHNlZSBPcGVuIEVkdWNhdGlvbmFsIFJlc291cmNlcyAoT0VSKSBhcyBhIG9uZS13YXkgcm9hZCwgd2hlcmUgeW91IG9ubHkgaGF2ZSB0byBwcm9kdWNlIGNvbnRlbnQgdGhhdCBvdGhlcnMgY29uc3VtZS5fCgp7ezF9fSBTdXBwb3J0aW5nIEF1dGhvcnMgKC1jb2xsYWJvcmF0aW9uKQoKe3syfX0gU2hhcmluZyBDb3Vyc2VzICh0aGUgbmV3IHdheXMpCgp7ezN9fSBTY3JpcHRzIGhpZGRlbiAoaW50ZXJhY3RpdmUpIEdlbXMKCnt7NH19IENsYXNzcm9vbXMgZXh0ZW5zaW9ucyAoTGFiLVNoYXJpbmcpCgo=)
+
+</section>
+
+    {{3}}
+<section>
+
 ### Tor-Network
+
+
+</section>
+
+
+    {{4}}
+<section>
 
 ### IPFS
 
+
+</section>
+
+
+    {{4}}
+<section>
+
 ### WebTorrent
 
+
+</section>
+
+
 ## Scripting
+
+> ## _The problem of static content is, that shortly after the time of writing, it might already be outdated..._
+
+    {{1}}
+<section style="display: flex">
+
+<!-- style="flex: 57.15%;" -->
+<div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/4ZgLPakqTajjVFOVqw" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/hot-cold-liquid-4ZgLPakqTajjVFOVqw">via GIPHY</a></p>
+
+<!-- style="flex: 42.85%;" -->
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/xULW8sfwGp5WJIXk9W" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/nasa-hot-earth-xULW8sfwGp5WJIXk9W">via GIPHY</a></p>
+
+</section>
+
+### How does it work?
 
 ```` ascii
 
@@ -168,8 +227,16 @@
 
 ### Configuring the Output
 
+    {{0-1}}
+<section>
+
+![Open-Meteo.com](./pic/open-meteo.png)<!-- class="image" -->
+
 https://open-meteo.com/en/docs
 
+</section>
+
+    {{1}}
 <script run-once="true" style="display: block">
 
 fetch("https://api.open-meteo.com/v1/forecast?latitude=50.92558&longitude=13.33125&hourly=temperature_2m")
@@ -188,7 +255,6 @@ fetch("https://api.open-meteo.com/v1/forecast?latitude=50.92558&longitude=13.331
     .catch(e => {
         send.lia("ups, something went wrong")
     })
-
 
 "waiting for the weather"
 </script>
@@ -229,7 +295,7 @@ fetch("https://api.open-meteo.com/v1/forecast?latitude=@input(`latitude`)&longit
 </script>
 
 
-#### Example: Weather Macro
+#### Example: Macro
 <!--
 @weather_at: @weather_at_(@uid,@0,@1)
 
@@ -274,7 +340,11 @@ fetch("https://api.open-meteo.com/v1/forecast?latitude=@input(`latitude_@0`)&lon
 
 ## Collaboration
 
+> ## _Peer to Peer could be a baked in concept for OER ... _
+
 ### Open a Classroom
+
+!?[How to open a classroom](https://www.youtube.com/watch?v=Kjk6OblugXI)
 
 ### New PubSub API
 
