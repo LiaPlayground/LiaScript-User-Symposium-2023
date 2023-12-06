@@ -21,6 +21,8 @@
 
 Welcome!
 
+![Philosophers](pic/philosophers.png)
+
 
 ## Vision of this Symposium
 
