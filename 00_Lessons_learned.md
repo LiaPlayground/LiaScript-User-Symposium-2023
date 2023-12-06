@@ -23,7 +23,7 @@ Motivation
 ============
 
 {{0-1}}
-> __Why do we not develop learing contents as Wikipedia or community driven software projects?__
+> __Why do we not develop learning contents as Wikipedia or community driven software projects?__
 
 {{0-1}}
 ![](./pic/CS100_Screen_shot.jpg)
@@ -33,9 +33,9 @@ Motivation
 
 > How does Wikipedia succeeds?
 
-+ Simple context description language 
++ Simple context description language
 + Integrated editor
-+ Versioning method 
++ Versioning method
 + ...
 
 **************************************************
@@ -49,13 +49,13 @@ Course content ...
 
 + ... is not only text, but also includes animations, videos, and interactive elements.
 + ... depends on specific learning goals and the didactic concept of the teacher.
-+ ... has to be interated in a learning management system mostly.
++ ... has to be iterated in a learning management system mostly.
 
 **************************************************
 
 ## My current usage
 
-Starting in 2018 we switched the learning content of our (courses)[https://github.com/TUBAF-IfI-LiaScript] completely to LiaScript.
+Starting in 2018 we switched the learning content of our [courses](https://github.com/TUBAF-IfI-LiaScript) completely to LiaScript.
 
 !?[](https://github.com/LiaPlayground/LiaScript-User-Symposium-2023/raw/main/vid/TUBAF.mp4)
 
@@ -70,10 +70,10 @@ Starting in 2018 we switched the learning content of our (courses)[https://githu
 
 https://github.com/TUBAF-IfI-LiaScript/VL_EAVD
 
-### Dissimination
+### Dissemination
 
-+ github 
-+ seperate website via Lia exporter 
++ github
++ separate website via Lia exporter
 
 ![](./pic/EAVD_oer_Screen_shot.jpg)
 
@@ -128,7 +128,7 @@ I used the [pygithub](https://github.com/PyGithub/PyGithub) library to access th
 ### Data set 
 
 1. We found 523 repositories and 924 courses with different combinations of the keyword `LiaScript`.
-2. In 229 repositories we found 598 valid LiaScript files. 
+2. In 229 repositories we found 598 valid LiaScript files.
 
 The data set is available in the repository of this talk.
 
