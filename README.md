@@ -15,6 +15,16 @@ Welcome!
 
 {{1-3}}
 > __2. Discuss the next steps of the project on a conceptual level.__
+{{0-3}}
+> __1. Let's foster the LiaScript community building.__
+
+{{1-3}}
+> __2. Discuss the next steps of the project on a conceptual level.__
+
+{{2-3}}
+> __3. Indentify requiered improvements and extentions for LiaScript tools.__
+
+## Agenda
 
 {{2-3}}
 > __3. Indentify requiered improvements and extentions for LiaScript tools.__
