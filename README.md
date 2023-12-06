@@ -1,3 +1,18 @@
+<!--
+
+@style
+
+.lia-slide__container {
+    background-image: url("https://raw.githubusercontent.com/LiaPlayground/LiaScript-User-Symposium-2023/main/pic/philosophers-light.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@end
+
+-->
+
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/LiaScript-User-Symposium-2023/main/README.md)
 
 # LiaScript-User-Symposium-2023
@@ -6,18 +21,17 @@
 
 Welcome!
 
-> __TODO: Bild einfügen__
 
 ## Vision of this Symposium
 
-{{0-3}}
+    {{1}}
 > __1. Let's foster the LiaScript community building.__
 
-{{1-3}}
+    {{2}}
 > __2. Discuss the next steps of the project on a conceptual level.__
 
-{{2-3}}
-> __3. Indentify requiered improvements and extentions for LiaScript tools.__
+    {{3}}
+> __3. Identify required improvements and extensions for LiaScript tools.__
 
 ## Agenda
 
@@ -40,38 +54,29 @@ Welcome!
 
 ## Warm up
 
-> Please switch to the LiaScript Classroom of the symposium! By using the following link [LiaClassroom]()
+> Please switch to the LiaScript Classroom of the symposium! By using the following link [LiaClassroom](https://liascript.github.io/course/?eyJiYWNrZW5kIjoiUHViTnVifHB1Yi1jLTIxMjBmNWFiLTBjZWEtNGM5MS04ZjgyLTQ4ZTQwOGRjNTY2ZHxzdWItYy01MWJlOTgyNy0yMDM1LTQzMTAtOWVkNC1kYWIzNGRmYTk1ZGMiLCJjb3Vyc2UiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vTGlhUGxheWdyb3VuZC9MaWFTY3JpcHQtVXNlci1TeW1wb3NpdW0tMjAyMy9tYWluL1JFQURNRS5tZCIsInJvb20iOiJVc2VyLVN5bXBvc2l1bS0yMDIzIn0=#5)
 
-> __TODO: Link auf Klassenraum einfügen__
 
-                               {{1-2}}
-************************************************************************
+### Questions?
 
 __Where are you from?__
 
-- [(asia)]          Asia 
-- [(australia)]     Australia 
+- [(asia)]          Asia
+- [(australia)]     Australia
 - [(europe)]        Europe
-- [(north america)] North America 
+- [(north america)] North America
 - [(south america)] South America
 
-************************************************************************
+---
 
-                               {{2-3}}
-************************************************************************
-
-What's your affiliation?
+__What's your affiliation?__
 
 - [[academia]] Academia
-- [[industry]] Industry 
+- [[industry]] Industry
 
-************************************************************************
+---
 
-                               {{3-4}}
-************************************************************************
-
-What is your domain?
+__What is your domain (you can separate multiple with commas)?__
 
 [[___]]
 
-************************************************************************
